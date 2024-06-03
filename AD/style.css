@@ -1,21 +1,63 @@
 
 body{   
-   background-color:  #4fa5d8;
+    margin: auto;
+    border-radius: 20px;
+    height: 640px;
+    border:solid 5px;
+    background-color:  #0dcaf0;
+    contain: content;
+   
 }
 
 #container{
-    border-radius: 25px;
+    border-radius: 20px;
     margin: auto;
-    margin-top: 40px;
+    margin-top: 60px;
     padding: 10px;
-    height: 400px;
+    height: auto;
     width: 420px;
-    border: solid 5px;
+    border: solid 2.5px;
     background-color: rgba(255, 255, 255, 0.856);
-    contain: content;
     font-family: helvetica, Arial, sans-serif;
 
     
 
 }
 
+#frame{
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 300px;
+    height: 190px;
+    width: 190px;
+    border-radius: 50%;
+    border: solid;
+    z-index: 1;
+    contain: content;
+    background-color: black;
+}
+
+
+#img1{
+
+     background: url(hey.png) no-repeat center center;
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    border:solid;
+    border-color: black;
+    margin-left: -10px;
+    margin-top: -10px;
+}
+
+#collapseText{
+    font-size: small;
+}
+
+.btn{
+    border-color: black;
+    background-color: #4fa5d8;
+    color: white;
+    
+
+}
