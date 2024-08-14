@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en"></html>
+<html>
+    
+    <head>
+        <title>Join the team</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <script src="/JS_UI/jquery-ui-1.13.3/jquery-ui.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    
+   </head>
+    
+    <body>
+      <div id="space">
+      <nav class="navbar  fixed-top">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Find out More!</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item nav-title">
+                      <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <button onclick="change()"><a class="nav-link">Services</a></button>
+                    </li>
+                  </ul>         
+                </div>
+              </div>
+            </div>
+      </nav>
+      </div>
+      <div id="masterframe">
+        <!-- Change content in container to display services -->
+          <div id="container">
+
+              <div id="frame">
+                <img  id = "img1"src="" alt="">
+              </div>
+
+              <P>Check out our open <b><em>positions.....</em></b><br>
+              
+                  <p class="d-inline-flex gap-1">
+                      <button class="btn btn-info" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                        click here...
+                      </button>
+                    </p>
+                    <div class="collapse" id="collapseExample">
+                      <div id="collapseText" class="card card-body">
+                              <p style="text-indent: 15px;">
+                              Our office is currently hiring for remote & in office. Positions are available immediately!
+                              Our financial office is looking for people who have high character and a heart to serve others in the financial services industry.
+                              We have work-from-home income options.
+                              </p>             
+                              
+                              <ol>
+                                  <li>Spare-time: This is a commitment of working 4 to 8 hrs.</li>
+                                  <li>Part-time: This is a commitment of working 8 to 25 hrs.</li>
+                                  <li>Full-time: This is a commitment to work full time.</li>
+                              </ol>
+                              <p style="text-indent: 15px;">
+                              Hours are negotiable. No experience needed, just a clean background. We provide all the training & licensing. 
+                              for more information please send a email.
+                              <div  id="money"></div>
+                              </p></br><a rel="stylesheet" href="mailto:frelancer8210@gmail.com">frelancer8210@gmail.com </a> 
+                      </div>
+                    </div>
+
+              
+              </p>
+          </div>
+      
+        <div id="icon">
+        <a href="http://facebook.com/frelancer8210" id="facebook"></a>
+        <a href="https://www.instagram.com/frelancer8210/" id="Instagram"></a>
+        <a href="https://github.com/frijoles4me" id="github"></a>
+        
+        </div>
+      <script>
+        function change(){
+            document.getElementById("container").innerHTML = 
+            "<div style='text-indent: 25px;''>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ornare dignissim erat at egestas. Vestibulum dictum enim non libero hendrerit fermentum. Pellentesque vitae turpis ut arcu sodales ultricies. Praesent non ligula ut mauris luctus maximus ut eu odio. Donec a enim tempus, posuere risus et, fringilla felis. Aliquam at ligula posuere, maximus dolor sed, faucibus odio. Cras egestas, felis consequat lacinia semper, odio nisl eleifend libero, in iaculis leo lacus et est. Etiam id magna varius, posuere urna nec, interdum purus. Curabitur egestas ipsum et dolor porttitor malesuada. Ut pharetra dui vitae condimentum condimentum. Sed porta turpis scelerisque purus hendrerit suscipit. Duis ligula lorem, ornare vitae orci ut, placerat volutpat justo. Suspendisse vel placerat ex. Nulla vel est dictum, laoreet magna vel, eleifend leo. Donec tellus arcu, tincidunt vitae interdum id, consectetur ut purus.</div>"; 
+        };
+       </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</div>
+  </body>
+    
+    
+</html>
