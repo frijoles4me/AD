@@ -28,8 +28,8 @@ body{
 
 #frame{
     position: absolute;
-    margin-top: -40px;
-    margin-left: 300px;
+    margin-top: -70px;
+    margin-left: 280px;
     height: 190px;
     width: 190px;
     border-radius: 50%;
@@ -54,6 +54,10 @@ body{
 
 #collapseText{
     font-size: small;
+    width: 380px;
+    height: auto;
+    margin-left: 5px;
+    
 }
 
 .btn{
@@ -86,8 +90,10 @@ body{
     width: 40px;
     background-color:white;
     border-radius: 10px;
+    padding: 20px;
     margin-left: 5px;
     margin-right: 5px;
+
     
 }
 
@@ -101,3 +107,16 @@ body{
     margin-left: 5px;
     
 }
+
+#money{
+
+    background: url(money.gif) no-repeat center center;
+    height: 45px;
+    width: 45px;
+    background-color:0dcaf0;
+    border-radius: 15px;
+    margin-left: 5px;
+    
+}
+
+
