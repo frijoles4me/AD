@@ -4,6 +4,9 @@
 }
 
 #space{
+    position: sticky;
+    top: 0;
+    z-index: 1;
     border-radius: 20px;
     background-color:  #0dcaf0;
     margin-bottom: 20px;
@@ -26,9 +29,9 @@
     margin: auto;
     margin-top: 100px;
     margin-bottom: 60px;
-    padding: 10px;
+    padding: 8px;
     height: auto;
-    width: 420px;
+    width: 350px;
     border: solid 2.5px;
     background-color: rgba(255, 255, 255, 0.856);
     font-family: helvetica, Arial, sans-serif;
@@ -62,7 +65,7 @@
 
 #collapseText{
     font-size: small;
-    width: 380px;
+    width: 320px;
     height: auto;
     margin-left: 5px;
     
