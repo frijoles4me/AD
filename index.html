@@ -27,10 +27,14 @@
                 <div class="offcanvas-body">
                   <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                     <li class="nav-item nav-title">
-                      <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                       <a style="margin-left: 10px; font-size: larger;" class="nav-link active" aria-current="page" href="index.html">Home</a>               
                     </li>
                     <li class="nav-item">
-                      <button onclick="change()"><a class="nav-link">Services</a></button>
+                      <button onclick="servicesPage()" type="button" class="btn btn-dark" 
+                      style="--bs-btn-padding-y: 1px; --bs-btn-padding-x: .5rem; --bs-btn-font-size: large; 
+                              margin-top: 10px; border-color: white; background-color: white;">
+                      <a class="nav-link">Services</a>
+                    </button>
                     </li>
                   </ul>         
                 </div>
@@ -84,12 +88,7 @@
         <a href="https://github.com/frijoles4me" id="github"></a>
         
         </div>
-      <script>
-        function change(){
-            document.getElementById("container").innerHTML = 
-            "<div style='text-indent: 25px;''>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ornare dignissim erat at egestas. Vestibulum dictum enim non libero hendrerit fermentum. Pellentesque vitae turpis ut arcu sodales ultricies. Praesent non ligula ut mauris luctus maximus ut eu odio. Donec a enim tempus, posuere risus et, fringilla felis. Aliquam at ligula posuere, maximus dolor sed, faucibus odio. Cras egestas, felis consequat lacinia semper, odio nisl eleifend libero, in iaculis leo lacus et est. Etiam id magna varius, posuere urna nec, interdum purus. Curabitur egestas ipsum et dolor porttitor malesuada. Ut pharetra dui vitae condimentum condimentum. Sed porta turpis scelerisque purus hendrerit suscipit. Duis ligula lorem, ornare vitae orci ut, placerat volutpat justo. Suspendisse vel placerat ex. Nulla vel est dictum, laoreet magna vel, eleifend leo. Donec tellus arcu, tincidunt vitae interdum id, consectetur ut purus.</div>"; 
-        };
-       </script>
+        <script src="pages.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </div>
   </body>

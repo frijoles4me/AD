@@ -1,0 +1,6 @@
+
+
+function servicesPage(){
+    document.getElementById("container").innerHTML = 
+    "<div style='text-indent: 25px;''>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ornare dignissim erat at egestas. Vestibulum dictum enim non libero hendrerit fermentum. Pellentesque vitae turpis ut arcu sodales ultricies. Praesent non ligula ut mauris luctus maximus ut eu odio. Donec a enim tempus, posuere risus et, fringilla felis. Aliquam at ligula posuere, maximus dolor sed, faucibus odio. Cras egestas, felis consequat lacinia semper, odio nisl eleifend libero, in iaculis leo lacus et est. Etiam id magna varius, posuere urna nec, interdum purus. Curabitur egestas ipsum et dolor porttitor malesuada. Ut pharetra dui vitae condimentum condimentum. Sed porta turpis scelerisque purus hendrerit suscipit. Duis ligula lorem, ornare vitae orci ut, placerat volutpat justo. Suspendisse vel placerat ex. Nulla vel est dictum, laoreet magna vel, eleifend leo. Donec tellus arcu, tincidunt vitae interdum id, consectetur ut purus.</div>"; 
+};
